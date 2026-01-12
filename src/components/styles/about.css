@@ -1,0 +1,29 @@
+/* about.css */
+
+.about-section {
+  padding: 5rem 0;
+}
+
+.about-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.about-text {
+  max-width: 640px;
+}
+
+.about-highlight {
+  color: #38bdf8;
+  font-weight: 500;
+}
+
+/* responsive */
+
+@media (max-width: 900px) {
+  .about-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

@@ -1,0 +1,24 @@
+===============================================
+   BACKEND SERVER IS NOT RUNNING!
+===============================================
+
+You MUST start the backend server first.
+
+Open a NEW terminal and run:
+
+cd d:\Portfolio\backend
+node server.js
+
+OR
+
+cd d:\Portfolio\backend
+npm start
+
+===============================================
+
+The backend MUST be running on http://localhost:5000
+Keep that terminal open while using the website.
+
+Then your contact form will work!
+
+===============================================
